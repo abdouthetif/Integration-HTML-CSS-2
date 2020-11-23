@@ -1,0 +1,161 @@
+/* General */
+* {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #49525c;
+    margin: 0;
+}
+
+/* Header */
+header {
+    width: 100vw;
+    background-color: white;
+    border-bottom: 1px solid #e6e6ea;
+    padding: 10px 0 10px 0;
+}
+
+header > div {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    /* Link */
+header div > div img {
+    width: 12px;
+}
+
+    /* Logo */
+#logo {
+    width: 120px;
+}
+
+    /* Navbar */
+header div nav ul {
+    list-style-type: none;
+}
+
+header div nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: none;
+}
+
+/* Main */
+body main {
+    background-color: #f7f9fc;
+    background-image: url('../images/background.png');
+    padding: 40px 0 0 0;
+}
+
+    /* Main Main */
+main section {
+    display: flex;
+}
+
+#proof {
+    width: 50%;
+    margin: 50px 0 0 80px;
+}
+
+#send {
+    width: 50%;
+    margin: 155px 120px 0 0;
+}
+
+main section div h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-left: 200px;
+    text-align: left;
+}
+
+main section #proof > p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 40px 0 0 200px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+#tell_button {
+    background-color: #ee7470;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    margin: 30px 180px 0 50px;
+    cursor: pointer;
+}
+
+#tell_button:hover {
+    background-color: #f15650;
+}
+
+#tell_link {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+main section #send p {
+    margin: 0 180px 0 50px;
+}
+
+    /* Link */
+main div {
+    text-align: center;
+}
+
+main div button a img {
+    width: 50px;
+}
+
+main div button {
+    border: none;
+    background-color: white;
+}
+
+main > div {
+   padding: 50px 0 50px 0;
+}
+
+main > div button {
+    background-color: #F7F9FC;
+}
+
+/**
+*   Test dessin boutton play
+*
+
+#parent {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+#triangle {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-left: 15px solid white;
+}
+
+#cercle {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: red;
+} */
